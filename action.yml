@@ -1,5 +1,6 @@
 name: deploy-any
 description: Deploys the selected environment
+branding: {color: blue, icon: box}
 inputs:
   environment: {description: environment name, required: true}
   AWS_ACCESS_KEY_ID_DEV: {description: dev aws access key id, required: true}
